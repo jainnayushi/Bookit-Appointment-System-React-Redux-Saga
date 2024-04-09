@@ -1,0 +1,88 @@
+.dr-form-container {
+  max-width: 620px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dr-form-container label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.dr-form-container input,
+.dr-form-container select {
+  width: 600px;
+  display: block;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+.dr-form-container input {
+  margin: 5px 0;
+}
+.dr-form-container select {
+  height: 120px; /* Set a fixed height for the select to enable scrolling */
+  /* width: 1050px; */
+}
+
+.dr-form-container button {
+  display: block;
+  /* width: 100%; */
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.dr-form-container button:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 2px 4px 8px rgba(82, 82, 82, 0.705);
+}
+
+.pagination-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.pagination-button {
+  padding: 8px 12px;
+  margin: 0 4px;
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pagination-button:hover {
+  background-color: #505050;
+}
+
+table,
+td,
+th {
+  border: 1px solid;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 4px 8px;
+}
+
+th {
+  background-color: rgb(0, 23, 62);
+  border: 1px black solid;
+  color: white;
+  padding: 8px;
+}
+table {
+  width: 100%;
+  margin: 10px auto;
+  border-collapse: collapse;
+}
